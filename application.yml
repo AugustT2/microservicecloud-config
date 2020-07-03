@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 spring:
   profiles:
     active:
@@ -24,3 +25,27 @@ spring:
     name: microservicecloud-config-atguigu-test
 
 #  请保存为UTF-8格式
+=======
+spring:
+  profiles:
+    active: 
+    - dev
+
+---
+
+spring:
+  profiles: dev     #开发环境
+  application:
+    name: microservicecloud-config-atguigu-dev
+
+---
+
+spring:
+  profiles: test   #测试环境
+  application:
+    name: microservicecloud-config-atguigu-test
+
+ 
+
+ 
+>>>>>>> a400fd9c0ee35fa6fa3c87985588ef1413b7d0f6
